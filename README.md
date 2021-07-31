@@ -17,11 +17,14 @@ Deactivate Venv
 > deactivate
 
 ### Install Django and Django REST framework into the virtual environment
-> pip freeze > requirements.txt
 
+Install these if not yet existing
 > pip install django
 
 > pip install djangorestframework
+
+Save installed configs on requirements.txt
+> pip freeze > requirements.txt
 
 ### If you are using mongodb
 > pip install djongo 
@@ -40,20 +43,22 @@ Install first MySQL server and MySQL Workbench
 Install first PGAdmin for PostGreSQL
 > https://www.postgresql.org/ftp/pgadmin/pgadmin4/v5.5/macos/
 
-Than Install the python library for connecting PostgreSQL
+Then Install the python library for connecting PostgreSQL
 > pip install psycopg2
 
 ### [Optional] Use requirements.txt if package is already existing ready for installation
 > pip install -r requirements.txt
 
+### Change directory for AppRestApis
+> cd AppRestApis
+
 ### Now sync your database for the first time
 > python manage.py migrate
 
-
-### Create an initial user named 'admin'
+### Create an initial user named 'admin' for django rest admin
 > python manage.py createsuperuser --email admin@example.com --username admin
 
 ### Run server
-> python manage.py runserver
+> python manage.py runserver 8080
 
 
