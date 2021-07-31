@@ -6,7 +6,7 @@
 >https://www.django-rest-framework.org/tutorial/quickstart/
 
 
-### Open in PyCharm: django-angular
+### Open in PyCharm: django-angular-backend-base
 
 ### Create a virtual environment to isolate our package dependencies locally
 >python3 -m venv <env_name>
