@@ -1,20 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-/AppAngularFE/dist
-/AppAngularFE/tmp
-/AppAngularFE/out-tsc
-
-# Only exists if Bazel was run
-/AppAngularFE/bazel-out
-
-# dependencies
-/AppAngularFE/node_modules
-
-# profiling files
-/AppAngularFE/chrome-profiler-events*.json
-/AppAngularFE/speed-measure-plugin*.json
-
 # IDEs and editors
 .idea
 .project
@@ -23,42 +8,13 @@
 *.launch
 .settings/
 *.sublime-workspace
-/AppAngularFE/.idea
-/AppAngularFE/.project
-/AppAngularFE/.classpath
-/AppAngularFE/.c9/
-/AppAngularFE/*.launch
-/AppAngularFE/.settings/
-/AppAngularFE/*.sublime-workspace
-/AppAngularFE/.editorconfig
-/AppAngularFE/.browserslistrc
-
-# IDE - VSCode
-/AppAngularFE/.vscode/*
-/AppAngularFE/!.vscode/settings.json
-/AppAngularFE/!.vscode/tasks.json
-/AppAngularFE/!.vscode/launch.json
-/AppAngularFE/!.vscode/extensions.json
-/AppAngularFE/.history/*
-
-# misc
-/AppAngularFE/.sass-cache
-/AppAngularFE/connect.lock
-/AppAngularFE/coverage
-/AppAngularFE/libpeerconnection.log
-/AppAngularFE/npm-debug.log
-/AppAngularFE/yarn-error.log
-/AppAngularFE/testem.log
-/AppAngularFE/typings
 
 # System Files
-/AppAngularFE/.DS_Store
-/AppAngularFE/Thumbs.db
-/AppAngularFE/.gitignore
 .DS_Store
 Thumbs.db
 
 /AppVenv
+/AppAngularFE
 
 
 
