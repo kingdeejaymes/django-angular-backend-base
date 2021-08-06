@@ -91,12 +91,23 @@ WSGI_APPLICATION = 'AppRestApis.wsgi.application'
 
 # MySQL
 DATABASES = {
+    # LOCAL
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'testdb',
+    #     'USER': 'root',
+    #     'PASSWORD': 'admin@123',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    # }
+
+    # AWS ENV
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testdb',
+        'NAME': 'ebdb',
         'USER': 'root',
-        'PASSWORD': 'admin@123',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'admin123',
+        'HOST': 'aa1lciymrn8a982.cgq8lnopeod7.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
