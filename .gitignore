@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # IDEs and editors
+AppRestApis/.ebextensions
 .idea
 .project
 .classpath
@@ -19,3 +20,8 @@ Thumbs.db
 
 
 
+
+# Elastic Beanstalk Files
+AppRestApis/.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

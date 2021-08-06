@@ -16,6 +16,9 @@
 Deactivate Venv
 > deactivate
 
+### Change directory for AppRestApis
+> cd AppRestApis
+
 ### Install Django and Django REST framework into the virtual environment
 
 Install these if not yet existing
@@ -48,9 +51,6 @@ Then Install the python library for connecting PostgreSQL
 
 ### [Optional] Use requirements.txt if package is already existing ready for installation
 > pip install -r requirements.txt
-
-### Change directory for AppRestApis
-> cd AppRestApis
 
 ### Now sync your database for the first time
 > python manage.py migrate

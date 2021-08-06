@@ -1,14 +1,16 @@
 from django.http import JsonResponse
 from django.shortcuts import render
 from rest_framework import status
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.parsers import JSONParser
+from rest_framework.permissions import AllowAny, IsAuthenticated
 
 from .models import Tutorial
 from .serializers import TutorialSerializer
 
 
 @api_view(['GET', 'POST', 'DELETE'])
+# @permission_classes([IsAuthenticated])  # route guard for this REST API
 def tutorial_list(request):
     # GET list of tutorials, POST a new tutorial, DELETE all tutorials
     if request.method == 'GET':
@@ -37,6 +39,7 @@ def tutorial_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
+@permission_classes([IsAuthenticated])  # route guard for this REST API
 def tutorial_detail(request, pk):
     # find tutorial by pk (id)
     try:
@@ -63,6 +66,7 @@ def tutorial_detail(request, pk):
 
 
 @api_view(['GET'])
+@permission_classes([IsAuthenticated])  # route guard for this REST API
 def tutorial_list_published(request):
     # GET all published tutorials
     tutorials = Tutorial.objects.filter(published=True)
