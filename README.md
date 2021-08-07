@@ -62,3 +62,24 @@ Then Install the python library for connecting PostgreSQL
 > python manage.py runserver 8080
 
 
+## Deploying Django in AWS
+> https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
+
+## Install EB CLI
+> https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html#eb-cli3-install.scripts
+
+## Adding Database
+> https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-rds.html
+NOTE: Don't forget to add your local IP for the allowed inbound rules ob the RDS DB that you created
+
+### Connecting to AWS RDS using MySQL Workbench
+> https://stackoverflow.com/questions/28429493/how-to-connect-mysql-workbench-to-amazon-rds
+
+### AWS root Login Credentials:
+> deejayt12@gmail.com / Ballsohard@12
+
+### Elastic Bean SSH:
+> key pair name:  aws-eb
+
+> passphrase: awsebPP
+

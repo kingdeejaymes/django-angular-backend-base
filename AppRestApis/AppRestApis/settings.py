@@ -107,6 +107,8 @@ DATABASES = {
         'NAME': 'ebdb',
         'USER': 'root',
         'PASSWORD': 'admin123',
+        # https://us-west-2.console.aws.amazon.com/elasticbeanstalk/home?region=us-west-2#/environment/configuration?applicationName=django-tutorial&environmentId=e-3mhi4bf23u
+        # https://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#databases:
         'HOST': 'aa1lciymrn8a982.cgq8lnopeod7.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
     }
