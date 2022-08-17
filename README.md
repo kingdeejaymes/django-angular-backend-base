@@ -76,7 +76,7 @@ NOTE: Don't forget to add your local IP for the allowed inbound rules ob the RDS
 > https://stackoverflow.com/questions/28429493/how-to-connect-mysql-workbench-to-amazon-rds
 
 ### AWS root Login Credentials:
-> deejayt12@gmail.com / Ballsohard@12
+> deejayt12@gmail.com / <Check>
 
 ### Elastic Bean SSH:
 > key pair name:  aws-eb
