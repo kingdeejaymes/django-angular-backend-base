@@ -1,3 +1,6 @@
+This is a backend Django code base that can be use to integrate in Angular Code for Frontend
+
+
 #References
 >https://www.bezkoder.com/django-angular-11-crud-rest-framework/#Django_Angular_11_example_Overview
 
